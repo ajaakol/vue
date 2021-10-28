@@ -1,34 +1,54 @@
 {
-    "events": [
-      {
-        "id": 123,
-        "category": "animal welfare",
-        "title": "Cat Adoption Day",
-        "description": "Find your new feline friend at this event.",
-        "location": "Meow Town",
-        "date": "January 28, 2022",
-        "time": "12:00",
-        "organizer": "Kat Laydee"
-      },
-      {
-        "id": 456,
-        "category": "food",
-        "title": "Community Gardening",
-        "description": "Join us as we tend to the community edible plants.",
-        "location": "Flora City",
-        "date": "March 14, 2022",
-        "time": "10:00",
-        "organizer": "Fern Pollin"
-      },
-      {
-        "id": 789,
-        "category": "sustainability",
-        "title": "Beach Cleanup",
-        "description": "Help pick up trash along the shore.",
-        "location": "Playa Del Carmen",
-        "date": "July 22, 2022",
-        "time": "11:00",
-        "organizer": "Carey Wales"
-      }
-    ]
-  }
+  "events": [
+    {
+      "id": 123,
+      "category": "animal welfare",
+      "title": "Cat Adoption Day",
+      "description": "Find your new feline friend at this event.",
+      "location": "Meow Town",
+      "date": "January 28, 2022",
+      "time": "12:00",
+      "organizer": "Kat Laydee"
+    },
+    {
+      "id": 456,
+      "category": "food",
+      "title": "Community Gardening",
+      "description": "Join us as we tend to the community edible plants.",
+      "location": "Flora City",
+      "date": "March 14, 2022",
+      "time": "10:00",
+      "organizer": "Fern Pollin"
+    },
+    {
+      "id": 789,
+      "category": "sustainability",
+      "title": "Beach Cleanup",
+      "description": "Help pick up trash along the shore.",
+      "location": "Playa Del Carmen",
+      "date": "July 22, 2022",
+      "time": "11:00",
+      "organizer": "Carey Wales"
+    },
+    {
+      "id": "9ab8c4bb-8054-41ac-bbe9-d1b86697592b",
+      "category": "sustainability",
+      "title": "ASDA",
+      "description": "asd",
+      "location": "as",
+      "date": "as",
+      "time": "as",
+      "organizer": "Aleksanteri Jaakola"
+    },
+    {
+      "id": "f1865478-f410-43e7-a124-674356ba30b8",
+      "category": "sustainability",
+      "title": "New Event",
+      "description": "xxxx",
+      "location": "Helsinki",
+      "date": "31.8.2022",
+      "time": "10 AM",
+      "organizer": "Aleksanteri Jaakola"
+    }
+  ]
+}
