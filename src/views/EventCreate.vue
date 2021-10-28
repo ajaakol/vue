@@ -1,7 +1,7 @@
 <template>
   <h1>Create an event</h1>
 
-  <div id="form-container">
+  <div class="form-container">
     <form @submit.prevent="onSubmit">
       <label>Select a category:</label>
       <select v-model="event.category">
@@ -42,8 +42,6 @@
 
 <script>
 import { v4 as uuidv4 } from 'uuid';
-import EventService from '@/services/EventService.js';
-
 export default {
   data() {
     return {
@@ -75,13 +73,19 @@ export default {
         id: uuidv4(),
         organizer: this.$store.state.user,
       };
-
-      EventService.postEvent(event)
+      this.$store
+        .dispatch('createEvent', event)
         .then(() => {
-          this.$store.commit('ADD_EVENT', event);
+          this.$router.push({
+            name: 'EventDetails',
+            params: { id: event.id },
+          });
         })
         .catch((error) => {
-          console.log(error);
+          this.$router.push({
+            name: 'ErrorDisplay',
+            params: { error: error },
+          });
         });
     },
   },

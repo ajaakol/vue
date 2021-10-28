@@ -49,6 +49,36 @@
       "date": "31.8.2022",
       "time": "10 AM",
       "organizer": "Aleksanteri Jaakola"
+    },
+    {
+      "id": "8209e29c-e9d2-4d9e-9abf-91bab2dab7a2",
+      "category": "community",
+      "title": "1",
+      "description": "1",
+      "location": "1",
+      "date": "1",
+      "time": "1",
+      "organizer": "Aleksanteri Jaakola"
+    },
+    {
+      "id": "b86193f5-3e34-4b94-93f7-c042664e66eb",
+      "category": "sustainability",
+      "title": "12",
+      "description": "12",
+      "location": "12",
+      "date": "12",
+      "time": "12",
+      "organizer": "Aleksanteri Jaakola"
+    },
+    {
+      "id": "9236cb58-b44d-4a9e-80fe-bdcf740e1ef8",
+      "category": "nature",
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "organizer": "Aleksanteri Jaakola"
     }
   ]
 }
