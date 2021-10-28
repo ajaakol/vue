@@ -67,6 +67,9 @@ export default {
       },
     };
   },
+  computed: {
+    ...mapState(['user']),
+  },
   methods: {
     ...mapActions('event', ['createEvent']),
     onSubmit() {
@@ -89,9 +92,6 @@ export default {
           });
         });
     },
-  },
-  computed: {
-    ...mapState(['user']),
   },
 };
 </script>
