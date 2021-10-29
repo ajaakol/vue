@@ -1,11 +1,5 @@
 # vue-app
 
-## Deployment
-
-```
-https://vue-8fln.onrender.com/
-```
-
 ## Project setup
 
 ```
